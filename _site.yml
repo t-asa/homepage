@@ -3,10 +3,11 @@ output_dir: "."
 navbar:
   title: "Asako TOYAMA"
   left:
-    - text: "Home"
-      href: index.html
     - text: "About Me"
-      href: about.html
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+
 output:
   html_document:
     theme: flatly
