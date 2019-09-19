@@ -6,7 +6,7 @@ title: "About Me"
 - __Ocupation:__ Researcher at Nagoya University
 - __Research Interest:__ Decision making, Reinforcement learning, Memory, Habit
 - __Email:__ toyama.asako[at]b.mbox.nagoya-u.ac.jp
-- __Hobbies:__ I love hot yoga, coffee, tomato, and sleeping!
+- __Favorite Things:__ I love hot yoga, coffee, tomato, and nature!
 
     
 I did a PhD of psychology at Nagoya University with [Hideki Ohira](https://scholar.google.com/citations?user=E7yKMWUAAAAJ&hl=ja) and [Kentaro Katahira](https://sites.google.com/site/nagoyacbslab/). 
