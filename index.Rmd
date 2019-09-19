@@ -12,6 +12,6 @@ title: "About Me"
 I did a PhD of psychology at Nagoya University with [Hideki Ohira](https://scholar.google.com/citations?user=E7yKMWUAAAAJ&hl=ja) and [Kentaro Katahira](https://sites.google.com/site/nagoyacbslab/). 
 My PhD work was about _"Reinforcement Learning in Humans: Rethinking Psychologically Plausible Model-Free and Model-Based Algorithms."_ I'm interested in understanding human decision-making process using behavioral tasks and computational approach.
 
-__I'm searching a job now!__
+__I am looking for a job now!__
 
 ![](asa.jpg)
