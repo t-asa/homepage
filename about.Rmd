@@ -2,4 +2,11 @@
 title: "About Me"
 ---
 
-Why I am awesome.
+- __Name:__ Asako
+- __Ocupation:__ "Ph.D of psychology"
+- __Research Interest:__ Decision making, Reiforcement learning, Memory, Habit
+- __Hobbies:__ I love hot yoga, coffe, tomato, and sleeping!
+
+I'm searching a job!
+
+![](asa.jpg)
