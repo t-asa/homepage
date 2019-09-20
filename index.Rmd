@@ -4,10 +4,9 @@ title: "About Me"
 
 - __Name:__ Asako Toyama
 - __Ocupation:__ Researcher at Nagoya University
-- __Research Interest:__ Decision making, Reinforcement learning, Memory, Habit
+- __Research Interest:__ Decision making, Reinforcement learning, Memory, Habit, Emotion
 - __Email:__ toyama.asako[at]b.mbox.nagoya-u.ac.jp
-- __FavoriteThings:__ I love hot yoga, coffee, tomato, the musics of Ed Sheeran, and nature!
-
+- __FavoriteThings:__ I love hot yoga, coffee, tomatos, Ed Sheeran's songs, and nature!
     
 I did a PhD of psychology at Nagoya University with [Hideki Ohira](https://scholar.google.com/citations?user=E7yKMWUAAAAJ&hl=ja) and [Kentaro Katahira](https://sites.google.com/site/nagoyacbslab/). 
 My PhD work was about _"Reinforcement Learning in Humans: Rethinking Psychologically Plausible Model-Free and Model-Based Algorithms."_ I'm interested in understanding human decision-making process using behavioral tasks and computational approach.
