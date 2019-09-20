@@ -10,10 +10,11 @@ navbar:
     - text: "Others"
       href: others.html
 
-includes:
-      in_header: "favicon.html" 
+
 
 output:
   html_document:
     theme: flatly
     css: style.css
+    includes:
+      in_header: "favicon.html" 
