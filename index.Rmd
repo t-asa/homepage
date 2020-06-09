@@ -3,7 +3,7 @@ title: "About Me"
 ---
 
 - __Name:__ Asako Toyama
-- __Ocupation:__ Researcher at Nagoya University
+- __Ocupation:__ JSPS Research Fellow PD (Senshu university) 2020.4.1~
 - __Research Interest:__ Decision making, Reinforcement learning, Memory, Habit, Emotion
 - __Email:__ toyama.asako[at]b.mbox.nagoya-u.ac.jp
 - __FavoriteThings:__ I love hot yoga, coffee, tomatos, Ed Sheeran's songs, and nature!
