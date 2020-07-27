@@ -12,9 +12,9 @@ title: "Others"
 * [Inquisit uninstall page (Japanese)](https://sites.google.com/view/inquisit-player-uninstall/%e3%83%9b%e3%83%bc%e3%83%a0?subjectid=1  )：
 InquistのWeb実験で使う __Inquisit 5 Player__ のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。
 
-* [PsychoPyで簡単な課題作成①](PsychoPy参考１.pdf) ![](new.png){.pull-left width=2.5%} ![](PDF_24.png){.pull-left width=2.5%}:選択課題で選択肢によってあたりの確率が違う課題例① 2019.11時点
+* [PsychoPyで簡単な課題作成①](PsychoPy_ref1.pdf) ![](new.png){.pull-left width=2.5%} ![](PDF_24.png){.pull-left width=2.5%}:選択課題で選択肢によってあたりの確率が違う課題例① 2019.11時点
 
-* [PsychoPyで簡単な課題作成②](PsychoPy参考２.pdf) ![](new.png){.pull-left width=2.5%} ![](PDF_24.png){.pull-left width=2.5%}:選択課題で選択肢によってあたりの確率が違う課題例② 2019.11時点
+* [PsychoPyで簡単な課題作成②](PsychoPy_ref2.pdf) ![](new.png){.pull-left width=2.5%} ![](PDF_24.png){.pull-left width=2.5%}:選択課題で選択肢によってあたりの確率が違う課題例② 2019.11時点
 
 * [個人的なQ & A](QA_20200609.pdf) ![](new.png){.pull-left width=2.5%} ![](PDF_24.png){.pull-left width=2.5%}:
 2019年からつけ始めた**R**や**Inquisit**のメモです。特に私がよく使う事項や，解決策を見つけるのに苦労した内容を載せています。お役に立つ情報があれば幸いです。 2020.6.9時点
