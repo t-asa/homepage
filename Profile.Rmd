@@ -1,6 +1,5 @@
 ---
 title: "Profile"
-output: html_document
 ---
 
 ## 学位
