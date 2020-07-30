@@ -1,4 +1,4 @@
-setwd("/Users/asako/OneDrive/homepage")
+setwd("/Users/asako/OneDrive/homepage/UP")
 #render your sweet site. 
 rmarkdown::render_site()
 
