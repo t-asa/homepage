@@ -1,5 +1,8 @@
 ---
 title: "About Me"
+output:
+  html_document:
+    toc_float: false
 ---
 
 - __Name:__ Asako Toyama

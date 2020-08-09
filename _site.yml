@@ -16,7 +16,12 @@ navbar:
 
 output:
   html_document:
-    theme: flatly
+    theme: sandstone
+    highlight: kate
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    number_section: false
     css: style.css
     includes:
       in_header: "favicon.html" 
