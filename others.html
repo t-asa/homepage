@@ -362,6 +362,16 @@ div.tocify {
 </div>
 
 
+<style type="text/css">
+#TOC a {
+color: blue;
+}
+
+.tocify .tocify-header .active {
+color: white;
+background: #DB7093;
+}
+</style>
 <div id="inquisitについて" class="section level1">
 <h1>Inquisitについて</h1>
 <p>私はオンライン実験をする際には，行動課題用に <a href="https://www.millisecond.com/products/inquisit6/laboverview.aspx">Inquisit</a> と 質問紙調査用に <a href="https://www.qualtrics.com/jp/">Qualtrics</a>を使っています。<br />
@@ -382,7 +392,7 @@ div.tocify {
 <li>パソコンが変わったときのライセンス移行は可能です。</li>
 <li>Inquisit Labは，30日間の <a href="https://www.millisecond.com/download/">無料のお試し</a>ができます。それ以降は，ライセンスを購入しないと，課題の実行はできてもランダムな結果が記録されるだけなので注意。</li>
 <li>出力としては，サマリーとローデータと両方出してくれます。カスタマイズできます。</li>
-<li>リッカートスケール，ラジオボタン，プルダウンメニューなどもあり，<strong>質問紙調査にももちろん使えます</strong>。ただビジュアル的な好みもあり，私は質問紙関係は有料のQualtricsを使っています。（無料であればgoogle formなどもあります。）</li>
+<li>リッカートスケール，ラジオボタン，プルダウンメニューなどもあり，<strong>質問紙調査にももちろん使えます</strong>。ただビジュアル的な好みもあり，私は質問紙関係は有料のQualtricsを使っています。（無料であればGoogle Formsなどもあります。）</li>
 <li>PsychPyのように，刺激提示に関する<strong>エクセルを読み込む機能はありません。</strong></li>
 <li>チュートリアル（Documentation）はちょっと内容が古めです。アップされているTest libraryのコードを参考にするとよいと思います。</li>
 </ul>
@@ -407,9 +417,16 @@ div.tocify {
 <div id="psychopy" class="section level4">
 <h4>PsychoPy</h4>
 <ul>
-<li><p><img src="new.png" class="pull-left" style="width:2.5%" /><a href="PsychoPy_ref1.pdf">PsychoPyで簡単な課題作成①</a><img src="PDF_24.png" class="pull-left" style="width:2.5%" />:選択課題で選択肢によってあたりの確率が違う課題例 Step① 2019.11時点</p></li>
-<li><p><img src="new.png" class="pull-left" style="width:2.5%" /><a href="PsychoPy_ref2.pdf">PsychoPyで簡単な課題作成②</a><img src="PDF_24.png" class="pull-left" style="width:2.5%" />:選択課題で選択肢によってあたりの確率が違う課題例 Step② 2019.11時点</p></li>
-<li><p><img src="new.png" class="pull-left" style="width:2.5%" /><a href="demo.zip">PsychoPy例1</a><img src="zip.jpg" class="pull-left" style="width:2.5%" /> <strong>３つの刺激から１つをマウスで選択 &amp; 選ばなかった刺激は半透明グレー</strong>: 簡単なデモと説明のパワーポイントファイルがあります。必ずzipファイルを展開してからお試しください。PsychoPy3(v3.2.4)で作成，2020.07.29</p></li>
+<li><p><a href="PsychoPy_ref1.pdf">PsychoPyで簡単な課題作成①</a><img src="PDF_24.png" class="pull-left" style="width:2.5%" />:選択課題で選択肢によってあたりの確率が違う課題例 Step① 2019.11時点</p></li>
+<li><p><a href="PsychoPy_ref2.pdf">PsychoPyで簡単な課題作成②</a><img src="PDF_24.png" class="pull-left" style="width:2.5%" />:選択課題で選択肢によってあたりの確率が違う課題例 Step② 2019.11時点</p></li>
+<li><p><img src="new.png" class="pull-left" style="width:2.5%" /><a href="demo.zip">PsychoPy例1-1</a><img src="zip.jpg" class="pull-left" style="width:2.5%" /> <strong>３つの刺激から１つをマウスで選択 &amp; 選ばなかった刺激は半透明グレー</strong>: 簡単なデモと説明のパワーポイントファイルがあります。必ずzipファイルを展開してからお試しください。PsychoPy3(v3.2.4)で作成，2020.07.29</p></li>
+<li><p><img src="new.png" class="pull-left" style="width:2.5%" /><a href="Rock-paper-scissors.zip">PsychoPy例1-2</a><img src="zip.jpg" class="pull-left" style="width:2.5%" /> <strong>じゃんけんをして、相手の手と結果が表示される</strong>: 上記の例1-1の発展版です。codeを使って、下記のことをやっています。（必ずzipファイルを展開してからお試しください。PsychoPy3(v3.2.4)で作成，2020.09.10）</p>
+<ul>
+<li>マウスで選んだ自分の手だけ目立つようにする。</li>
+<li>エクセルから読み込んだ相手の手が表示される。</li>
+<li>自分と相手の手を比較したじゃんけんの結果が表示される。</li>
+<li>勝ち負けの結果がエクセルに記録される(codeで指定)</li>
+</ul></li>
 </ul>
 <p>**内容に誤りを見つけられた方は，遠山までご連絡頂けますと幸いです。</p>
 <hr />
@@ -490,7 +507,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
