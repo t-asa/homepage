@@ -1,0 +1,32 @@
+---
+title: "Links"
+---
+```{css, echo=F}
+#TOC a {
+color: blue;
+}
+
+.tocify .tocify-header .active {
+color: white;
+background: #DB7093;
+}
+```
+
+
+#### [参加者用研究フィードバック]
+現在なし    
+
+#### Senshu University
+* [専修大学のHP](https://www.senshu-u.ac.jp/)
+* [国里愛彦先生のHP: Computational Clinical Psychology Lab](https://kunisatolab.github.io/main/index.html)  
+
+#### Nagoya University 
+
+* [情報学研究科：School of Informatics, Graduate School of Informatics](https://www.i.nagoya-u.ac.jp/en/)
+* [片平健太郎先生のHP: Computational Behavioral Science Laboratory](https://sites.google.com/site/nagoyacbslab/home)
+* [齋藤菜月さんのHP： (psychologist of empathy)](https://n-saito.amebaownd.com/)  
+
+#### Useful sites
+* [日本心理学会第83回大会 チュートリアル・ワークショップ004 機械学習と心理学の接点の補足資料(片平先生)](https://kkatahira.github.io/personality/index.html)
+    
+  
