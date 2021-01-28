@@ -50,9 +50,14 @@ background: #DB7093;
 
 * ![](new.png){.pull-left width=2.5%}[オンライン実験 IDの受け渡しについて](idの受け渡しに関して20210121.pdf)![](PDF_24.png){.pull-left width=2.5%} : こちらの備忘録は，**Qualtrics**で質問紙調査，**Inquisit**で行動課題，**クラウドワークス社**のシステムを利用してWEB実験を行う際にidを受け渡す方法についてまとめたものです。2021.1.21時点
 
-* [Inquisit uninstall page (Japanese)](https://sites.google.com/view/inquisit-player-uninstall/%e3%83%9b%e3%83%bc%e3%83%a0?subjectid=1  )：
+* [Inquisit 5 Player uninstall page (Japanese)](https://sites.google.com/view/inquisit-player-uninstall/%E3%83%9B%E3%83%BC%E3%83%A0)：
 InquistのWeb実験で使う __Inquisit 5 Player__ のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。
 
+* [Inquisit 6 Player uninstall page (Japanese)](https://sites.google.com/view/uninstallinquisit6player/%E3%83%9B%E3%83%BC%E3%83%A0)：
+InquistのWeb実験で使う __Inquisit 5 Player__ のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。
+
+
+https://sites.google.com/view/inquisit-player-uninstall/%E3%83%9B%E3%83%BC%E3%83%A0
 #### R関係
 
 * [R, Rstudio による統計解析](RAnalysis.pdf)![](PDF_24.png){.pull-left width=2.5%}  : 学部生用にツールとしての使い方を簡潔にまとめたものです。
