@@ -54,7 +54,7 @@ background: #DB7093;
 InquistのWeb実験で使う __Inquisit 5 Player__ のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。
 
 * [Inquisit 6 Player uninstall page (Japanese)](https://sites.google.com/view/uninstallinquisit6player/%E3%83%9B%E3%83%BC%E3%83%A0)：
-InquistのWeb実験で使う __Inquisit 5 Player__ のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。
+InquistのWeb実験で使う __Inquisit 6 Player__ のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。
 
 
 https://sites.google.com/view/inquisit-player-uninstall/%E3%83%9B%E3%83%BC%E3%83%A0
