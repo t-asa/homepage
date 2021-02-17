@@ -11,8 +11,8 @@ navbar:
       href: others.html
     - text: "Links"
       href: links.html
-    - text: "Profile"
-      href: profile1.html
+    #- text: "Profile"
+    #  href: profile1.html
 
 output:
   html_document:
