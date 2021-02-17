@@ -8,3 +8,10 @@ rmarkdown::render_site()
   # git commit -m "small change"
   # git push origin master
 
+
+
+
+# 下記はメインのページからしばらく削除
+# ![](asa.jpg){width=25%}
+
+# ![](address.png){width=25%}
