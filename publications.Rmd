@@ -5,6 +5,10 @@ output:
     toc_float: false
 ---
 
+> 2020
+
+* Katahira, K., & Toyama, A. (2021). Revisiting the importance of model fitting for model-based fMRI: It does matter in computational psychiatry. Plos Computational Biology, 17(2), e1008738. [doi:10.1371/journal.pcbi.1008738](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008738)
+
 > 2019
 
 * Toyama, A., Katahira, K., & Ohira, H. (2019). Reinforcement Learning With Parsimonious Computation and a Forgetting Process. Frontiers in Human Neuroscience, 13, 153. [doi:10.3389/fnhum.2019.00153](https://www.frontiersin.org/articles/10.3389/fnhum.2019.00153/full)
