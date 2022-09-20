@@ -1,0 +1,17 @@
+---
+title: "About Me"
+output:
+  html_document:
+    toc_float: false
+---
+
+- __Name:__ Asako Toyama
+- __Ocupation:__ JSPS Research Fellow PD (Senshu university) 2020.4.1~
+- __Research Interest:__ Decision making, Reinforcement learning, Model missspecification, Memory, Habit, Emotion
+- __FavoriteThings:__ I love hot yoga, coffee, tomatos, Ed Sheeran's songs, and nature!
+- __Email:__ s200086[=ｱｯﾄﾏｰ=ｸ]senshu-u.jp
+    
+
+    
+I did a PhD of psychology at Nagoya University with [Hideki Ohira](https://scholar.google.com/citations?user=E7yKMWUAAAAJ&hl=ja) and [Kentaro Katahira](https://sites.google.com/site/nagoyacbslab/). 
+My PhD work was about _"Reinforcement Learning in Humans: Rethinking Psychologically Plausible Model-Free and Model-Based Algorithms."_ I'm interested in understanding human decision-making process using behavioral tasks and computational approach.

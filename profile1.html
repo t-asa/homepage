@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Profile</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<!doctype html>
+<link rel="shortcut icon" href="favicon.jpg">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Asako TOYAMA</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Main</a>
+</li>
+<li>
+  <a href="profile1.html">Profile</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="others.html">Others</a>
+</li>
+<li>
+  <a href="links.html">Links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Profile</h1>
+
+</div>
+
+
+<blockquote>
+<p>学位</p>
+</blockquote>
+<ul>
+<li>2019年5月(令和元)　博士（心理学）名古屋大学</li>
+<li>2013年3月(平成25)　修士（心理学）名古屋大学</li>
+<li>2008年3月(平成20)　学士（ 文学 ）京都大学</li>
+</ul>
+<blockquote>
+<p>学歴</p>
+</blockquote>
+<ul>
+<li>2013(平成25)年4月ー2016(平成29)年3月　名古屋大学大学院　環境学研究科　博士後期課程　（単位取得満期退学）</li>
+<li>2011(平成23)年4月ー2013(平成26)年3月　名古屋大学大学院　環境学研究科　博士前期課程</li>
+<li>2004(平成16)年4月ー2008(平成20)年3月　京都大学文学部　人文学科　</li>
+<li>2003(平成16)年3月　福岡県立修猷館高等学校　卒業</li>
+</ul>
+<blockquote>
+<p>職歴</p>
+</blockquote>
+<ul>
+<li>2020(令和
+2)年4月ー　日本学術振興会　特別研究員（PD）受入研究機関：専修大学　文学研究科　国里研究室</li>
+<li>2017(平成29)年4月ー2020(平成30)年3月　名古屋大学
+情報学研究科　研究員（大平研究室）</li>
+<li>2015(平成27)年4月ー2017(平成30)年3月　日本学術振興会　特別研究員（DC2）名古屋大学　大平研究室</li>
+<li>2013(平成25)年4月ー2016(平成29)年3月　名古屋大学大学院
+ティーチングアシスタント</li>
+<li>2012(平成24)年4月ー2015(平成28)年3月　名古屋大学
+環境医学研究所附属近未来環境シミュレーションセンター 技術職員</li>
+<li>2008(平成20)年4月ー2011(平成23)年3月　理化学研究所 事務職員</li>
+</ul>
+<blockquote>
+<p>教育歴</p>
+</blockquote>
+<ul>
+<li>継続
+<ul>
+<li>2021（令和3）年4月1日~ 専修大学　非常勤講師　[心理学基礎実験]</li>
+<li>2021（令和3）年4月1日~
+専修大学　非常勤講師　[基礎心理学特殊講義：感情・動機づけ・情動]</li>
+<li>2020（令和2）年9月21日~ 専修大学　非常勤講師　[心理学英文購読]</li>
+</ul></li>
+<li>以前
+<ul>
+<li>2016（平成28）年4月ー2020(令和 2)年3月　名古屋大学 文学部 非常勤講師
+[基礎心理学演習]</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>外部資金</p>
+</blockquote>
+<ul>
+<li><p>日本学術振興会　特別研究員奨励費 　研究代表</p>
+<ul>
+<li>PD
+(20J01464)「忘却過程を考慮した強化学習モデルによる計算論的精神医学研究」（研究代表者）2020年度-2022年度</li>
+<li>DC
+(15J10796)「報酬の相対的価値とそれを補正する心理神経メカニズム」（研究代表者）2015年度-2016年度</li>
+</ul></li>
+<li><p>その他　研究代表</p>
+<ul>
+<li>平成 30 年度科学研究費補助金（若手研究
+18K13366）「意思決定における価値計算過程と選択過程を分離して評価する計算論的アプローチ」（研究代表者）,
+2018年度–2021年度</li>
+</ul></li>
+<li><p>その他　分担</p>
+<ul>
+<li><p>CREST [マルチセンシング]
+2021年度採択課題，研究領域：「生体マルチセンシングシステムの究明と活用技術の創出」，研究総括：入來
+篤史，研究課題名：「多様な迷走神経情報から創発する内受容感覚の脳統合」研究代表者：佐々木
+拓哉，2021年度-2026年度</p></li>
+<li><p>基盤研究(A)
+21H04420「内受容感覚の予測的処理を基盤とした感情と意思決定の創発メカニズムの探求」研究代表者：大平英樹，2021年度–2024年度.</p></li>
+<li><p>国際共同研究加速基金(国際共同研究強化(B))「予測的符号化に基づく計算論的心身医学ー過敏性腸症候群を対象とした基礎的検討ー」代表者：大平英樹，2019年度–2023年度</p></li>
+</ul></li>
+</ul>
+<hr />
+<blockquote>
+<p>Current affiliation</p>
+</blockquote>
+<ul>
+<li>Japan Society for the Promotion of Science, Tokyo, Japan</li>
+<li>Graduate School of the Humanities, Senshu University, kawasaki,
+Japan</li>
+</ul>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

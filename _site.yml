@@ -1,0 +1,29 @@
+name: "Asako-website"
+output_dir: "."
+navbar:
+  title: "Asako TOYAMA"
+  left:
+    - text: "Main"
+      href: index.html
+    - text: "Profile"
+      href: profile1.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Others"
+      href: others.html
+    - text: "Links"
+      href: links.html
+
+
+output:
+  html_document:
+    theme: yeti
+    highlight: kate
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    number_section: false
+    css: style.css
+    includes:
+      in_header: "favicon.html" 
+

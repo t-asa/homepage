@@ -1,0 +1,120 @@
+---
+title: "Publications"
+---
+```{css, echo=F}
+#TOC a {
+color: blue;
+}
+
+.tocify .tocify-header .active {
+color: white;
+background: #DB7093;
+}
+```
+
+# Papers (International)
+
+> 2022
+
+- **Toyama, A.**, Katahira, K., & Kunisato, Y. (2022, September 2). Lack of perseveration in a reinforcement learning model induces estimation biases in the learning rate and inverse temperature. [doi.org/10.31234/osf.io/jz5rv](https://doi.org/10.31234/osf.io/jz5rv)
+
+- Kowal, M., ... **Toyama, A.**, ...Zumárraga-Espinosa, M. (2022). Predictors of enhancing human physical attractiveness: Data from 93 countries. Evolution and Human Behavior. [:doi.org/https://doi.org/10.1016/j.evolhumbehav.2022.08.003](https://doi.org/https://doi.org/10.1016/j.evolhumbehav.2022.08.003)  
+
+- Kimura, K., Kanayama, N., **Toyama, A.**, & Katahira, K. (2022). Cardiac Cycle Affects the Asymmetric Value Updating in Instrumental Reward Learning. Front Neurosci, 16, 889440. [doi.org/10.3389/fnins.2022.889440](https://doi.org/10.3389/fnins.2022.889440)
+
+> 2021
+
+- Katahira, K., & **Toyama, A.** (2021). Revisiting the importance of model fitting for model-based fMRI: It does matter in computational psychiatry. Plos Computational Biology, 17(2), e1008738. [doi:10.1371/journal.pcbi.1008738](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008738)
+
+> 2019
+
+- **Toyama, A.**, Katahira, K., & Ohira, H. (2019). Reinforcement Learning With Parsimonious Computation and a Forgetting Process. Frontiers in Human Neuroscience, 13, 153. [doi:10.3389/fnhum.2019.00153](https://www.frontiersin.org/articles/10.3389/fnhum.2019.00153/full)
+
+- **Toyama, A.**, Katahira, K., & Ohira, H. (2019). Biases in estimating the balance between model-free and model-based learning systems due to model misspecification. Journal of Mathematical Psychology, 91, 88-102. [doi:10.1016/j.jmp.2019.03.007](https://www.sciencedirect.com/science/article/pii/S0022249618300610)
+
+- Mizoguchi, H., Fukumoto, K., Sakamoto, G., Jin, S., **Toyama, A.**, Wang, T., . . . Sato, J. (2019). Maternal separation as a risk factor for aggravation of neuropathic pain in later life in mice. Behavioural Brain Research, 359, 942-949. [doi:10.1016/j.bbr.2018.06.015](https://www.sciencedirect.com/science/article/pii/S0166432818302948?via%3Dihub)
+
+> 2017
+
+- **Toyama, A.**, Katahira, K., & Ohira, H. (2017). A simple computational algorithm of model-based choice preference. Cognitive, Affective & Behavioral Neuroscience, 17(4), 764-783. [doi:10.3758/s13415-017-0511-2](https://link.springer.com/article/10.3758/s13415-017-0511-2)
+
+> 2014
+
+- **Toyama, A.**, Katsuhara, M., Sakurai, Y., & Ohira, H. (2014). Effects of Emotional Context during Encoding: An Advantage for Negative Context in Immediate Recognition and Positive Context in Delayed Recognition. Psychology (Savannah, Ga.), 5, 994-1000. [doi:10.4236/psych.2014.59111](https://www.scirp.org/journal/PaperInformation.aspx?PaperID=47750)
+
+> 2013
+
+- Matsunaga, M., Bai, Y., Yamakawa, K., **Toyama, A.**, Kashiwagi, M., Fukuda, K., . . . Ohira, H. (2013). Brain-immune interaction accompanying odor-evoked autobiographic memory. PloS One, 8(8), e72523. [doi:10.1371/journal.pone.0072523](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072523)
+
+# Papers (Japanese)
+
+
+> 2021
+
+- 国里愛彦・**遠山朝子**(2021) 心身医学研究とオープンサイエンス　心身医学研究, 61(8), 689-693. [LINK](https://www.jstage.jst.go.jp/article/jjpm/61/8/61_61.8_689/_article/-char/ja/)
+
+> 2020
+
+- **遠山朝子**(2020) 強化学習モデルを用いた個人差の推定　自動車技術, 74, 22-27. [LINK](https://tech.jsae.or.jp/kaishi/pc/index.aspx?id=jk202011)
+
+<hr>
+
+# Conferences (International)
+
+### ポスター
+
+-	**Toyama, A.**, Katahira, K., & Ohira, H. (2020.4). ATTENTION BIAS TO AFFECTIVE OUTCOMES. The 2020 SAS Annual Conference, Virtual.
+
+-	**Toyama, A.**, Katahira, K. (2019.7). Forgetting Process in Model-Free and Model-Based Reinforcement Learning, The 4th Multi-disciplinary Conference on RLDM, Montreal (Canada).
+
+-	**Toyama, A.**., Katahira, K., & Ohira, H. (2016.7). A parsimonious learning model can explain choice behavior reflecting task structure, The 31st international congress of psychology, Yokohama (Japan).
+
+-	**Toyama, A.** & Ohira, H. (2013.10) Flexible Adjustment of Anticipatory Affect by Relative Value, The 53rd Annual Meeting of Society for Psychophysiological Research (SPR), Florence (Italy).
+
+-	**Toyama, A.** & Ohira, H. (2012.9) Absolute value and relative value in incentive anticipation, The 52nd Annual Meeting of Society for Psychophysiological Research (SPR), Louisiana (USA).
+
+### ファーストトーク
+
+-	**Toyama, A.** & Kunisato, Y. (2021.7) Characteristic learning process in insomnia, Virtual MathPsych/ICCM 2021, Virtual. 
+<!-- [LINK](https://mathpsych.org/presentation/534) -->
+
+<hr>
+
+# Conferences (Japanese)
+
+### ポスター
+
+-	**遠山朝子**・田邊宏樹・石塚晃・礒田治夫・大平英樹 (2015.9). 
+文脈によって異なる相対的価値に対する予期反応　日本心理学会第77回大会 名古屋大学
+
+-	**遠山朝子**・大平英樹 (2013.9). 報酬予期における相対的価値の効果　日本心理学会第77回大会　北海道医療大学
+
+-	**遠山朝子**・大平英樹 (2012.9). 内集団と外集団からの不公正提案への心理生理的反応 日本心理学会第76回大会　専修大学
+
+-	**遠山朝子**・大平英樹 (2012.5). Monetary Incentive Delay (MID) 課題を用いた相対的予期反応の検討　第30回日本生理心理学会大会　北海道大学
+
+-	**遠山朝子**・勝原摩耶・櫻井芳雄・蘆田 宏・大平英樹 (2011.12). 感情価の異なる文に組み込まれた中立語の再認について　日本基礎心理学会第30回大会　慶応義塾大学
+
+### 小講演
+
+- **遠山朝子**・大平英樹 (2019.9). 強化学習におけるモデルフリーシステムとモデルベースシステムの新たなアルゴリズム　日本心理学会第83回大会 立命館大学
+
+### シンポジウム
+
+- **遠山朝子** （発表予定）(2022.9.9).
+大会企画シンポジウム「若手のための進路相談会」話題提供　
+日本心理学会第86回大会 日本大学+Web (ハイブリッド開催)
+
+- **遠山朝子** (2021.9.1-9.8). 強化学習モデルを用いた研究の中で感じる問題意識とアプローチ　シンポジウム「強化学習モデルを用いたヒトの情報処理過程の理解」 企画者・話題提供　日本心理学会第85回大会 東京　WEB開催
+
+- 小林正法・国里愛彦・大杉尚之・西山慧・紀ノ定保礼・**遠山朝子**(2021.9.8). はじめてのオンライン心理学実験・調査：jsPsychとlab.jsを用いた作成<チュートリアルワークショップ> 日本心理学会第85回大会 東京　WEB開催
+
+<hr>
+
+# Study Groups & Others
+
+### 口頭発表
+
+- **遠山朝子** (2016.12).　文脈依存の価値―fMRIと自律神経系の同時計測，および計算論モデルを用いた研究―　脳とこころの研究センタープログレスレポート会議　愛知県
+
+- **遠山朝子** (2019.4).　忘却過程を含む強化学習モデルを用いたモデルフリー・モデルベースシステム比重の推定　第22回計算論的精神医学コロキウム　東京都

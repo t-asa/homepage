@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Others</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<!doctype html>
+<link rel="shortcut icon" href="favicon.jpg">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Asako TOYAMA</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Main</a>
+</li>
+<li>
+  <a href="profile1.html">Profile</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="others.html">Others</a>
+</li>
+<li>
+  <a href="links.html">Links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Others</h1>
+
+</div>
+
+
+<style type="text/css">
+#TOC a {
+color: blue;
+}
+
+.tocify .tocify-header .active {
+color: white;
+background: #DB7093;
+}
+</style>
+<div id="resources" class="section level1">
+<h1>Resources</h1>
+<div id="オンライン実験" class="section level3">
+<h3>オンライン実験</h3>
+<ul>
+<li><p><a href="オンライン実験備忘録.pdf">オンライン実験備忘録</a><img
+src="PDF_24.png" class="pull-left" style="width:2.5%" /> :
+こちらの備忘録は，<strong>Qualtrics</strong>で質問紙調査，<strong>Inquisit</strong>で行動課題，<strong>クラウドワークス社</strong>のシステムを利用してWEB実験を行う際の情報を載せています。それぞれの基本的な使い方については省略し，これらをWEB実験で組み合わせる際の方法に焦点を当てています。2020.6.9時点，2021.01.25最終更新</p></li>
+<li><p><img src="new.png" class="pull-left" style="width:2.5%" /><a
+href="idの受け渡しに関して20210121.pdf">オンライン実験
+IDの受け渡しについて</a><img src="PDF_24.png" class="pull-left"
+style="width:2.5%" /> :
+こちらの備忘録は，<strong>Qualtrics</strong>で質問紙調査，<strong>Inquisit</strong>で行動課題，<strong>クラウドワークス社</strong>のシステムを利用してWEB実験を行う際にidを受け渡す方法についてまとめたものです。2021.1.21時点</p></li>
+<li><p><a
+href="https://sites.google.com/view/inquisit-player-uninstall/%E3%83%9B%E3%83%BC%E3%83%A0">Inquisit
+5 Player uninstall page (Japanese)</a>： InquistのWeb実験で使う
+<strong>Inquisit 5 Player</strong>
+のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。</p></li>
+<li><p><a
+href="https://sites.google.com/view/uninstallinquisit6player/%E3%83%9B%E3%83%BC%E3%83%A0">Inquisit
+6 Player uninstall page (Japanese)</a>： InquistのWeb実験で使う
+<strong>Inquisit 6 Player</strong>
+のアンインストール方法を書いたサイトです。内容ご確認の上，ご自由にリンクしてお使いください。</p></li>
+</ul>
+<!--https://sites.google.com/view/inquisit-player-uninstall/%E3%83%9B%E3%83%BC%E3%83%A0-->
+</div>
+<div id="r関係" class="section level3">
+<h3>R関係</h3>
+<ul>
+<li><p><a href="RAnalysis.pdf">R, Rstudio による統計解析</a><img
+src="PDF_24.png" class="pull-left" style="width:2.5%" /> :
+学部生用にツールとしての使い方を簡潔にまとめたものです。</p></li>
+<li><p><a href="QA_20200609.pdf">個人的なQ &amp; A</a><img
+src="PDF_24.png" class="pull-left" style="width:2.5%" />:
+2019年からつけ始めた<strong>R</strong>や<strong>Inquisit</strong>のメモです。特に私がよく使う事項や，解決策を見つけるのに苦労した内容を載せています。お役に立つ情報があれば幸いです。
+2020.6.9時点</p></li>
+</ul>
+</div>
+<div id="psychopy" class="section level3">
+<h3>PsychoPy</h3>
+<ul>
+<li><p><a href="PsychoPy_ref1.pdf">PsychoPyで簡単な課題作成①</a><img
+src="PDF_24.png" class="pull-left"
+style="width:2.5%" />:選択課題で選択肢によってあたりの確率が違う課題例
+Step① 2019.11時点</p></li>
+<li><p><a href="PsychoPy_ref2.pdf">PsychoPyで簡単な課題作成②</a><img
+src="PDF_24.png" class="pull-left"
+style="width:2.5%" />:選択課題で選択肢によってあたりの確率が違う課題例
+Step② 2019.11時点</p></li>
+<li><p><a href="demo.zip">PsychoPy例1-1</a><img src="zip.jpg"
+class="pull-left" style="width:2.5%" />
+<strong>３つの刺激から１つをマウスで選択 &amp;
+選ばなかった刺激は半透明グレー</strong>:
+簡単なデモと説明のパワーポイントファイルがあります。必ずzipファイルを展開してからお試しください。PsychoPy3(v3.2.4)で作成，2020.07.29</p></li>
+<li><p><a href="Rock-paper-scissors.zip">PsychoPy例1-2</a><img
+src="zip.jpg" class="pull-left" style="width:2.5%" />
+<strong>じゃんけんをして、相手の手と結果が表示される</strong>:
+上記の例1-1の発展版です。codeを使って、下記のことをやっています。（必ずzipファイルを展開してからお試しください。PsychoPy3(v3.2.4)で作成，2020.09.10）</p>
+<ul>
+<li>マウスで選んだ自分の手だけ目立つようにする。</li>
+<li>エクセルから読み込んだ相手の手が表示される。</li>
+<li>自分と相手の手を比較したじゃんけんの結果が表示される。</li>
+<li>勝ち負けの結果がエクセルに記録される(codeで指定)</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="inquisitについて" class="section level1">
+<h1>Inquisitについて</h1>
+<p>私はオンライン実験をする際には，行動課題用に <a
+href="https://www.millisecond.com/products/inquisit6/laboverview.aspx">Inquisit</a>
+と 質問紙調査用に <a
+href="https://www.qualtrics.com/jp/">Qualtrics</a>を使っています。<br />
+ここでは<strong>Milliseconds社のInquisit</strong>
+というソフトウェアについて簡単に紹介します。（2020/8/10現在）</p>
+<p><span style="color:#BB0000;">Inquisit
+は有料ですが，下記のようなメリットがあります。</span></p>
+<ul>
+<li>比較的安く<strong>永久ライセンスも購入できる</strong>ので，一度購入してしまえば後はお金がかからない。
+(短期間使用用の価格もあります。また，お金がない学生は交渉次第で少し安くしてくれます。)</li>
+<li><strong>サーバーも提供してくれる</strong>ので，Inquisit
+Webのライセンスの購入費用以外にお金はかからない。（自分のサーバーを指定することも可能）</li>
+<li><strong>心理学実験のコードが充実</strong>していて参考になる。(<a
+href="https://www.millisecond.com/download/library/">Test
+library</a>)</li>
+<li>課題を作りながら，一部だけ実行する，というのが可能。課題実行中にブロックをスキップするショートカットもあります。</li>
+<li>スマホなどにも対応しており，オンライン実験向けの更新が積極的にされている。</li>
+</ul>
+<p><span
+style="color:#BB0000;">Inquisitの使用に関する留意点や特徴もいくつか挙げておきます。</span></p>
+<ul>
+<li>スクリプトは<strong>Inquisit独自の言語</strong>を使って書きます。最近のバージョンでは，<strong>コードを書きながら，入力の候補が表示される</strong>ので便利になってきました。あとは，やはりTest
+Libraryなどを利用して書き方を学ぶと早いと思います。</li>
+<li>Inquisitを動かすには Inquisit
+Labのライセンスを購入しますが，ウェブ実験を行う際には，さらに Inquisit
+Webのライセンスを購入する必要があります。 （ <a
+href="https://www.millisecond.com/products/inquisit6/academicweb.aspx">Webライセンスの金額</a>，
+<a
+href="https://www.millisecond.com/products/inquisit6/academiclab.aspx）">Labライセンスの金額</a>）</li>
+<li>オンライン実験をする場合は，<strong>Webライセンス１つにつき，１つの実験</strong>をアップできます。古いのを消せば，また新しいものをアップできます。</li>
+<li>パソコンが変わったときのライセンス移行は可能です。</li>
+<li>Inquisit Labは，30日間の <a
+href="https://www.millisecond.com/download/">無料のお試し</a>ができます。それ以降は，ライセンスを購入しないと，課題の実行はできてもランダムな結果が記録されるだけなので注意。</li>
+<li>出力としては，サマリーとローデータと両方出してくれます。カスタマイズできます。</li>
+<li>リッカートスケール，ラジオボタン，プルダウンメニューなどもあり，<strong>質問紙調査にももちろん使えます</strong>。ただビジュアル的な好みもあり，私は質問紙関係は有料のQualtricsを使っています。（無料であればGoogle
+Formsなどもあります。）</li>
+<li>PsychPyのように，刺激提示に関する<strong>エクセルを読み込む機能はありません。</strong></li>
+<li>チュートリアル（Documentation）はちょっと内容が古めです。アップされているTest
+libraryのコードを参考にするとよいと思います。</li>
+</ul>
+<hr />
+<p>**
+内容に誤りを見つけられた方は，遠山までご連絡頂けますと幸いです。</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

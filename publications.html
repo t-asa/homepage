@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<!doctype html>
+<link rel="shortcut icon" href="favicon.jpg">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Asako TOYAMA</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Main</a>
+</li>
+<li>
+  <a href="profile1.html">Profile</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="others.html">Others</a>
+</li>
+<li>
+  <a href="links.html">Links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+
+<style type="text/css">
+#TOC a {
+color: blue;
+}
+
+.tocify .tocify-header .active {
+color: white;
+background: #DB7093;
+}
+</style>
+<div id="papers-international" class="section level1">
+<h1>Papers (International)</h1>
+<blockquote>
+<p>2022</p>
+</blockquote>
+<ul>
+<li><p><strong>Toyama, A.</strong>, Katahira, K., &amp; Kunisato, Y.
+(2022, September 2). Lack of perseveration in a reinforcement learning
+model induces estimation biases in the learning rate and inverse
+temperature. <a
+href="https://doi.org/10.31234/osf.io/jz5rv">doi.org/10.31234/osf.io/jz5rv</a></p></li>
+<li><p>Kowal, M., … <strong>Toyama, A.</strong>, …Zumárraga-Espinosa, M.
+(2022). Predictors of enhancing human physical attractiveness: Data from
+93 countries. Evolution and Human Behavior. <a
+href="https://doi.org/https://doi.org/10.1016/j.evolhumbehav.2022.08.003">:doi.org/https://doi.org/10.1016/j.evolhumbehav.2022.08.003</a></p></li>
+<li><p>Kimura, K., Kanayama, N., <strong>Toyama, A.</strong>, &amp;
+Katahira, K. (2022). Cardiac Cycle Affects the Asymmetric Value Updating
+in Instrumental Reward Learning. Front Neurosci, 16, 889440. <a
+href="https://doi.org/10.3389/fnins.2022.889440">doi.org/10.3389/fnins.2022.889440</a></p></li>
+</ul>
+<blockquote>
+<p>2021</p>
+</blockquote>
+<ul>
+<li>Katahira, K., &amp; <strong>Toyama, A.</strong> (2021). Revisiting
+the importance of model fitting for model-based fMRI: It does matter in
+computational psychiatry. Plos Computational Biology, 17(2), e1008738.
+<a
+href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008738">doi:10.1371/journal.pcbi.1008738</a></li>
+</ul>
+<blockquote>
+<p>2019</p>
+</blockquote>
+<ul>
+<li><p><strong>Toyama, A.</strong>, Katahira, K., &amp; Ohira, H.
+(2019). Reinforcement Learning With Parsimonious Computation and a
+Forgetting Process. Frontiers in Human Neuroscience, 13, 153. <a
+href="https://www.frontiersin.org/articles/10.3389/fnhum.2019.00153/full">doi:10.3389/fnhum.2019.00153</a></p></li>
+<li><p><strong>Toyama, A.</strong>, Katahira, K., &amp; Ohira, H.
+(2019). Biases in estimating the balance between model-free and
+model-based learning systems due to model misspecification. Journal of
+Mathematical Psychology, 91, 88-102. <a
+href="https://www.sciencedirect.com/science/article/pii/S0022249618300610">doi:10.1016/j.jmp.2019.03.007</a></p></li>
+<li><p>Mizoguchi, H., Fukumoto, K., Sakamoto, G., Jin, S.,
+<strong>Toyama, A.</strong>, Wang, T., . . . Sato, J. (2019). Maternal
+separation as a risk factor for aggravation of neuropathic pain in later
+life in mice. Behavioural Brain Research, 359, 942-949. <a
+href="https://www.sciencedirect.com/science/article/pii/S0166432818302948?via%3Dihub">doi:10.1016/j.bbr.2018.06.015</a></p></li>
+</ul>
+<blockquote>
+<p>2017</p>
+</blockquote>
+<ul>
+<li><strong>Toyama, A.</strong>, Katahira, K., &amp; Ohira, H. (2017). A
+simple computational algorithm of model-based choice preference.
+Cognitive, Affective &amp; Behavioral Neuroscience, 17(4), 764-783. <a
+href="https://link.springer.com/article/10.3758/s13415-017-0511-2">doi:10.3758/s13415-017-0511-2</a></li>
+</ul>
+<blockquote>
+<p>2014</p>
+</blockquote>
+<ul>
+<li><strong>Toyama, A.</strong>, Katsuhara, M., Sakurai, Y., &amp;
+Ohira, H. (2014). Effects of Emotional Context during Encoding: An
+Advantage for Negative Context in Immediate Recognition and Positive
+Context in Delayed Recognition. Psychology (Savannah, Ga.), 5, 994-1000.
+<a
+href="https://www.scirp.org/journal/PaperInformation.aspx?PaperID=47750">doi:10.4236/psych.2014.59111</a></li>
+</ul>
+<blockquote>
+<p>2013</p>
+</blockquote>
+<ul>
+<li>Matsunaga, M., Bai, Y., Yamakawa, K., <strong>Toyama, A.</strong>,
+Kashiwagi, M., Fukuda, K., . . . Ohira, H. (2013). Brain-immune
+interaction accompanying odor-evoked autobiographic memory. PloS One,
+8(8), e72523. <a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072523">doi:10.1371/journal.pone.0072523</a></li>
+</ul>
+</div>
+<div id="papers-japanese" class="section level1">
+<h1>Papers (Japanese)</h1>
+<blockquote>
+<p>2021</p>
+</blockquote>
+<ul>
+<li>国里愛彦・<strong>遠山朝子</strong>(2021)
+心身医学研究とオープンサイエンス　心身医学研究, 61(8), 689-693. <a
+href="https://www.jstage.jst.go.jp/article/jjpm/61/8/61_61.8_689/_article/-char/ja/">LINK</a></li>
+</ul>
+<blockquote>
+<p>2020</p>
+</blockquote>
+<ul>
+<li><strong>遠山朝子</strong>(2020)
+強化学習モデルを用いた個人差の推定　自動車技術, 74, 22-27. <a
+href="https://tech.jsae.or.jp/kaishi/pc/index.aspx?id=jk202011">LINK</a></li>
+</ul>
+<hr>
+</div>
+<div id="conferences-international" class="section level1">
+<h1>Conferences (International)</h1>
+<div id="ポスター" class="section level3">
+<h3>ポスター</h3>
+<ul>
+<li><p><strong>Toyama, A.</strong>, Katahira, K., &amp; Ohira, H.
+(2020.4). ATTENTION BIAS TO AFFECTIVE OUTCOMES. The 2020 SAS Annual
+Conference, Virtual.</p></li>
+<li><p><strong>Toyama, A.</strong>, Katahira, K. (2019.7). Forgetting
+Process in Model-Free and Model-Based Reinforcement Learning, The 4th
+Multi-disciplinary Conference on RLDM, Montreal (Canada).</p></li>
+<li><p><strong>Toyama, A.</strong>., Katahira, K., &amp; Ohira, H.
+(2016.7). A parsimonious learning model can explain choice behavior
+reflecting task structure, The 31st international congress of
+psychology, Yokohama (Japan).</p></li>
+<li><p><strong>Toyama, A.</strong> &amp; Ohira, H. (2013.10) Flexible
+Adjustment of Anticipatory Affect by Relative Value, The 53rd Annual
+Meeting of Society for Psychophysiological Research (SPR), Florence
+(Italy).</p></li>
+<li><p><strong>Toyama, A.</strong> &amp; Ohira, H. (2012.9) Absolute
+value and relative value in incentive anticipation, The 52nd Annual
+Meeting of Society for Psychophysiological Research (SPR), Louisiana
+(USA).</p></li>
+</ul>
+</div>
+<div id="ファーストトーク" class="section level3">
+<h3>ファーストトーク</h3>
+<ul>
+<li><strong>Toyama, A.</strong> &amp; Kunisato, Y. (2021.7)
+Characteristic learning process in insomnia, Virtual MathPsych/ICCM
+2021, Virtual.
+<!-- [LINK](https://mathpsych.org/presentation/534) --></li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="conferences-japanese" class="section level1">
+<h1>Conferences (Japanese)</h1>
+<div id="ポスター-1" class="section level3">
+<h3>ポスター</h3>
+<ul>
+<li><p><strong>遠山朝子</strong>・田邊宏樹・石塚晃・礒田治夫・大平英樹
+(2015.9).
+文脈によって異なる相対的価値に対する予期反応　日本心理学会第77回大会
+名古屋大学</p></li>
+<li><p><strong>遠山朝子</strong>・大平英樹 (2013.9).
+報酬予期における相対的価値の効果　日本心理学会第77回大会　北海道医療大学</p></li>
+<li><p><strong>遠山朝子</strong>・大平英樹 (2012.9).
+内集団と外集団からの不公正提案への心理生理的反応
+日本心理学会第76回大会　専修大学</p></li>
+<li><p><strong>遠山朝子</strong>・大平英樹 (2012.5). Monetary Incentive
+Delay (MID)
+課題を用いた相対的予期反応の検討　第30回日本生理心理学会大会　北海道大学</p></li>
+<li><p><strong>遠山朝子</strong>・勝原摩耶・櫻井芳雄・蘆田 宏・大平英樹
+(2011.12).
+感情価の異なる文に組み込まれた中立語の再認について　日本基礎心理学会第30回大会　慶応義塾大学</p></li>
+</ul>
+</div>
+<div id="小講演" class="section level3">
+<h3>小講演</h3>
+<ul>
+<li><strong>遠山朝子</strong>・大平英樹 (2019.9).
+強化学習におけるモデルフリーシステムとモデルベースシステムの新たなアルゴリズム　日本心理学会第83回大会
+立命館大学</li>
+</ul>
+</div>
+<div id="シンポジウム" class="section level3">
+<h3>シンポジウム</h3>
+<ul>
+<li><p><strong>遠山朝子</strong> （発表予定）(2022.9.9).
+大会企画シンポジウム「若手のための進路相談会」話題提供　
+日本心理学会第86回大会 日本大学+Web (ハイブリッド開催)</p></li>
+<li><p><strong>遠山朝子</strong> (2021.9.1-9.8).
+強化学習モデルを用いた研究の中で感じる問題意識とアプローチ　シンポジウム「強化学習モデルを用いたヒトの情報処理過程の理解」
+企画者・話題提供　日本心理学会第85回大会 東京　WEB開催</p></li>
+<li><p>小林正法・国里愛彦・大杉尚之・西山慧・紀ノ定保礼・<strong>遠山朝子</strong>(2021.9.8).
+はじめてのオンライン心理学実験・調査：jsPsychとlab.jsを用いた作成<チュートリアルワークショップ>
+日本心理学会第85回大会 東京　WEB開催</p></li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="study-groups-others" class="section level1">
+<h1>Study Groups &amp; Others</h1>
+<div id="口頭発表" class="section level3">
+<h3>口頭発表</h3>
+<ul>
+<li><p><strong>遠山朝子</strong>
+(2016.12).　文脈依存の価値―fMRIと自律神経系の同時計測，および計算論モデルを用いた研究―　脳とこころの研究センタープログレスレポート会議　愛知県</p></li>
+<li><p><strong>遠山朝子</strong>
+(2019.4).　忘却過程を含む強化学習モデルを用いたモデルフリー・モデルベースシステム比重の推定　第22回計算論的精神医学コロキウム　東京都</p></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
