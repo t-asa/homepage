@@ -13,7 +13,7 @@
 
 <title>Profile</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -169,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -178,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -293,8 +286,10 @@ $(document).ready(function () {
 <p>職歴</p>
 </blockquote>
 <ul>
+<li>2023(令和
+5)年8月ー　一橋大学　ソーシャル・データサイエンス研究科　特任助教</li>
 <li>2020(令和
-2)年4月ー　日本学術振興会　特別研究員（PD）受入研究機関：専修大学　文学研究科　国里研究室</li>
+2)年4月ー2023(令和5)年7月　日本学術振興会　特別研究員（PD）受入研究機関：専修大学　文学研究科　国里研究室</li>
 <li>2017(平成29)年4月ー2020(平成30)年3月　名古屋大学
 情報学研究科　研究員（大平研究室）</li>
 <li>2015(平成27)年4月ー2017(平成30)年3月　日本学術振興会　特別研究員（DC2）名古屋大学　大平研究室</li>
@@ -308,15 +303,16 @@ $(document).ready(function () {
 <p>教育歴</p>
 </blockquote>
 <ul>
-<li>継続
+<li>継続中
 <ul>
-<li>2021（令和3）年4月1日~ 専修大学　非常勤講師　[心理学基礎実験]</li>
-<li>2021（令和3）年4月1日~
-専修大学　非常勤講師　[基礎心理学特殊講義：感情・動機づけ・情動]</li>
-<li>2020（令和2）年9月21日~ 専修大学　非常勤講師　[心理学英文購読]</li>
+<li>なし</li>
 </ul></li>
 <li>以前
 <ul>
+<li>2021（令和3）年4月1日ー2023(令和5)年8月　
+専修大学　非常勤講師　[心理学基礎実験]</li>
+<li>2020（令和2）年9月21日ー2023(令和5)年8月　専修大学　非常勤講師　[心理学英文購読]</li>
+<li>2021（令和3）年4月1日ー2023(令和5)年3月　専修大学　非常勤講師　[基礎心理学特殊講義：感情・動機づけ・情動]</li>
 <li>2016（平成28）年4月ー2020(令和 2)年3月　名古屋大学 文学部 非常勤講師
 [基礎心理学演習]</li>
 </ul></li>
@@ -328,7 +324,7 @@ $(document).ready(function () {
 <li><p>日本学術振興会　特別研究員奨励費 　研究代表</p>
 <ul>
 <li>PD
-(20J01464)「忘却過程を考慮した強化学習モデルによる計算論的精神医学研究」（研究代表者）2020年度-2022年度</li>
+(20J01464)「忘却過程を考慮した強化学習モデルによる計算論的精神医学研究」（研究代表者）2020年度-2022年度（中断期間を含み2023年度7月末まで）</li>
 <li>DC
 (15J10796)「報酬の相対的価値とそれを補正する心理神経メカニズム」（研究代表者）2015年度-2016年度</li>
 </ul></li>
@@ -351,13 +347,15 @@ $(document).ready(function () {
 </ul>
 <hr />
 <blockquote>
-<p>Current affiliation</p>
+<p>Current affiliation (2023.8~) * Graduate School of Social Data
+Science, Hitotsubashi University, 2-1 Naka, Kunitachi, Tokyo 186-8601,
+Japan</p>
 </blockquote>
-<ul>
-<li>Japan Society for the Promotion of Science, Tokyo, Japan</li>
-<li>Graduate School of the Humanities, Senshu University, kawasaki,
-Japan</li>
-</ul>
+<blockquote>
+<p>Previous affiliation (~2023.7) * Japan Society for the Promotion of
+Science, Tokyo, Japan * Graduate School of the Humanities, Senshu
+University, kawasaki, Japan</p>
+</blockquote>
 
 
 
