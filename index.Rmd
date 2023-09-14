@@ -6,10 +6,10 @@ output:
 ---
 
 - __Name:__ Asako Toyama
-- __Ocupation:__ JSPS Research Fellow PD (Senshu university) 2020.4.1~
+- __Ocupation:__ Project assistant professor at Hitotsubashi university 2023.8.1~
 - __Research Interest:__ Decision making, Reinforcement learning, Model missspecification, Memory, Habit, Emotion
 - __FavoriteThings:__ I love hot yoga, coffee, tomatos, Ed Sheeran's songs, and nature!
-- __Email:__ s200086[=ｱｯﾄﾏｰ=ｸ]senshu-u.jp
+- __Email:__ asako.toyama[=ｱｯﾄﾏｰ=ｸ]r.hit-u.ac.jp
     
 
     
