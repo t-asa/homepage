@@ -6,9 +6,9 @@ output:
 ---
 
 - __Name:__ Asako Toyama
-- __Ocupation:__ Project assistant professor at Hitotsubashi university 2023.8.1~
+- __Occupation:__ Assistant professor at Hitotsubashi university, HIAS 2024.4.1~
 - __Research Interest:__ Decision making, Reinforcement learning, Model missspecification, Memory, Habit, Emotion
-- __FavoriteThings:__ I love hot yoga, coffee, tomatos, Ed Sheeran's songs, and nature!
+- __Favorite Things:__ I love hot yoga, coffee, tomato, Ed Sheeran's songs, and nature!
 - __Email:__ asako.toyama[=ｱｯﾄﾏｰ=ｸ]r.hit-u.ac.jp
     
 

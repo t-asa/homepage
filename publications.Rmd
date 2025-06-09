@@ -14,9 +14,23 @@ background: #DB7093;
 
 # Papers (International)
 
+> 2025
+
+<!--Martaの論文も追加 -->
+
+- Sugiyama, Y., Morisaki, S., **Toyama, A.**, & Katahira, K. (2025). Relationship between Model-based Decision-making and the Comprehension Performance of Source Code with Confusing Patterns. IEEE Transactions on Software Engineering, ### [doi:10.1109/TSE.2025.3566537]
+
+> 2024
+
+- Katahira, K., Oba, T., & **Toyama, A.** (2024). Does the reliability of computational models truly improve with hierarchical modeling? Some recommendations and considerations for the assessment of model parameter reliability: Reliability of computational model parameters. Psychonomic Bulletin & Review, 1-22.[doi.org/10.3758/s13423-024-02490-8](https://doi.org/10.3758/s13423-024-02490-8)
+
+
+> 2023
+
+- **Toyama, A.**, Katahira, K., & Kunisato, Y. (2023). Examinations of Biases by Model Misspecification and Parameter Reliability of Reinforcement Learning Models. Computational Brain & Behavior, 6(4), 651-670. [doi.org/10.1007/s42113-023-00175-4](https://link.springer.com/article/10.1007/s42113-023-00175-4#citeas)
+
 > 2022
 
-- **Toyama, A.**, Katahira, K., & Kunisato, Y. (2022, September 2). Lack of perseveration in a reinforcement learning model induces estimation biases in the learning rate and inverse temperature. [doi.org/10.31234/osf.io/jz5rv](https://doi.org/10.31234/osf.io/jz5rv)
 
 - Kowal, M., ... **Toyama, A.**, ...Zumárraga-Espinosa, M. (2022). Predictors of enhancing human physical attractiveness: Data from 93 countries. Evolution and Human Behavior. [:doi.org/https://doi.org/10.1016/j.evolhumbehav.2022.08.003](https://doi.org/https://doi.org/10.1016/j.evolhumbehav.2022.08.003)  
 
@@ -84,6 +98,21 @@ background: #DB7093;
 
 ### ポスター
 
+<!--
+
+Nuero2024! 書く!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+C001253 NEURO2024 @福岡コンベンションセンター
+
+食品画像の主観的評価が肥満を予測する
+Subjective Evaluation of Food Images as a Predictor of Obesity
+*遠山 朝子1、山下 祐一2、鈴木 真介1 (1. 一橋大学、2. 国立精神・神経医療研究センター 神経研究所)
+〇Asako Toyama1・Yuichi Yamashita2・Shinsuke Suzuki1
+1: Faculty of Social Data Science, Hitotsubashi University, Tokyo, Japan
+2: National Center of Neurology and Psychiatry, Tokyo, Japan
+-->
+
+
 -	**遠山朝子**・田邊宏樹・石塚晃・礒田治夫・大平英樹 (2015.9). 
 文脈によって異なる相対的価値に対する予期反応　日本心理学会第77回大会 名古屋大学
 
@@ -101,7 +130,17 @@ background: #DB7093;
 
 ### シンポジウム
 
-- **遠山朝子** （発表予定）(2022.9.9).
+- **遠山朝子** (2024.9.6). 
+計算論における信頼性向上の取り組み　シンポジウム「再現可能な研究ツールボックスの開発」
+話題提供　日本心理学会第88回大会 熊本
+
+- **遠山朝子** (2024.9.6). 
+計算論的精神医学/計算論モデルを用いたアプローチの人間観　シンポジウム「臨床心理学の現代的アプローチの根底にある「人間観」を探る：DSM的発想のその先へ」 話題提供　日本心理学会第88回大会 熊本
+
+- **遠山朝子** (2023.9.15). 
+計算論モデルを用いた精神障害へのアプローチ　シンポジウム「精神障害のカテゴリカル診断を超えた心理学的アプローチの可能性」 話題提供　日本心理学会第87回大会 神戸
+
+- **遠山朝子** (2022.9.9).
 大会企画シンポジウム「若手のための進路相談会」話題提供　
 日本心理学会第86回大会 日本大学+Web (ハイブリッド開催)
 
@@ -118,3 +157,26 @@ background: #DB7093;
 - **遠山朝子** (2016.12).　文脈依存の価値―fMRIと自律神経系の同時計測，および計算論モデルを用いた研究―　脳とこころの研究センタープログレスレポート会議　愛知県
 
 - **遠山朝子** (2019.4).　忘却過程を含む強化学習モデルを用いたモデルフリー・モデルベースシステム比重の推定　第22回計算論的精神医学コロキウム　東京都
+
+
+### 招待講演
+
+<!-- 
+#- **遠山朝子**（2025.3.25）.
+#ヒトの情報処理過程を理解するための強化学習モデル
+ 東京電機大学
+-->
+
+- **遠山朝子**（2024.11.15）.
+強化学習モデルを使って集団や個人を理解するということ
+第２回計算論的精神医学研究会　教育講演　@早稲田大学
+
+- **遠山朝子**（2024.3.23）.
+ヒトの情報処理過程を理解するための強化学習モデル― 研究の中で感じている問題意識 ―
+日本認知科学P&P研究会 一橋大学
+
+
+### 書籍
+
+### ハンズオンセミナーチューター
+- CPSY TOKYO 2024
